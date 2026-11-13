@@ -1,0 +1,57 @@
+media:
+  input: media
+  output: media
+  categories: [image]
+  rename: safe
+
+content:
+  - name: site
+    label: Conteúdo do site
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: nome
+        label: Nome do negócio
+        type: string
+      - name: etiqueta
+        label: Etiqueta por cima do título
+        type: string
+      - name: titulo
+        label: Título da capa
+        type: string
+      - name: subtitulo
+        label: Texto da capa
+        type: text
+      - name: foto_capa
+        label: Fotografia da capa
+        type: image
+      - name: preco_desde
+        label: Preço "desde"
+        type: string
+      - name: telefone
+        label: Telefone
+        type: string
+      - name: whatsapp
+        label: WhatsApp (só números, com 351)
+        type: string
+      - name: aviso
+        label: Aviso / promoção (deixe vazio para esconder)
+        type: text
+      - name: casas
+        label: Casas
+        type: object
+        list: true
+        fields:
+          - name: nome
+            label: Nome
+            type: string
+          - name: descricao
+            label: Descrição
+            type: text
+          - name: preco
+            label: Preço
+            type: string
+          - name: foto
+            label: Fotografia
+            type: image

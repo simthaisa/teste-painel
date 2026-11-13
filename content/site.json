@@ -1,0 +1,25 @@
+{
+  "nome": "Casa do Vale",
+  "etiqueta": "Alojamento rural · Exemplo",
+  "titulo": "Dias calmos, à beira do rio.",
+  "subtitulo": "Duas casas de madeira e uma casa de pedra, no meio da natureza.",
+  "foto_capa": "media/capa.jpg",
+  "preco_desde": "desde 85 € / noite",
+  "telefone": "+351 900 000 000",
+  "whatsapp": "351900000000",
+  "aviso": "Promoção de inverno: 10% de desconto em estadias de 3 noites ou mais.",
+  "casas": [
+    {
+      "nome": "Casa de madeira",
+      "descricao": "Para 2 a 4 pessoas, com varanda virada para o vale.",
+      "preco": "85 € / noite",
+      "foto": "media/casa-madeira.jpg"
+    },
+    {
+      "nome": "Casa de pedra",
+      "descricao": "Para 4 a 6 pessoas, com lareira e cozinha completa.",
+      "preco": "120 € / noite",
+      "foto": "media/casa-pedra.jpg"
+    }
+  ]
+}
